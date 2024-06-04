@@ -27,10 +27,10 @@ def set_employee_discount(emp: dict) -> list:
     return [
         fname, 
         lname, 
-        f"{salary:,.2f}", 
-        f"{sfs:,.2f}",
-        f"{afp:,.2f}", 
-        f"{salario_neto_imponible:,.2f}",
+        f"RD${salary:,.2f}",
+        f"RD${sfs:,.2f}",
+        f"RD${afp:,.2f}",
+        f"RD${salario_neto_imponible:,.2f}",
         f"RD${ISR:,.2f}",
         f"RD${salario_neto:,.2f}"
     ]

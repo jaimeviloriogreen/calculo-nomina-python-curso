@@ -7,7 +7,7 @@ def question_menu():
             message="Elige la opción que prefieras...",
             choices=[
                 ("1. Ingresar empleado", "1"),
-                ("3. Mostrar nómina", "2"),
+                ("2. Mostrar nómina", "2"),
               
                 ("3. Salir", "3")
             ],
